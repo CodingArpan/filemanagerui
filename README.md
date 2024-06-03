@@ -39,13 +39,13 @@ To install and set up the project locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/file-storage-manager.git
+    git clone https://github.com/CodingArpan/filemanagerui.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd file-storage-manager
+    cd filemanagerui
     ```
 
 3. Install the dependencies:

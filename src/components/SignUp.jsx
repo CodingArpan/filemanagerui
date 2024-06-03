@@ -169,9 +169,10 @@ function SignUp({ setAlertdata }) {
           />
           {!CnfPwd && <p className={errormesage}>Different from password</p>}
         </div>
-        <div className="btn w-full px-16 pt-5 flex flex-col justify-center items-center space-y-4">
-          {!Loader && (
-            <button
+
+        <div className=" w-full px-16 pt-5 flex flex-col justify-center items-center ">
+          
+          <button
               disabled={!(Email && Pwd && CnfPwd)}
               type="button"
               onClick={() => {
@@ -180,8 +181,8 @@ function SignUp({ setAlertdata }) {
               className="bg-orange-400 shadow-lg shadow-orange-500/30 w-fit px-10 py-2 text-white font-medium rounded-full transition-all hover:scale-105 active:scale-95"
             >
               Create +
-            </button>
-          )}
+          </button>
+        
 
           <p className="text-gray-700 text-sm">
             Already have an account !
